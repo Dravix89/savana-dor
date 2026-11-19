@@ -32,7 +32,6 @@ Site vitrine d’une agence de safaris sur mesure en Afrique : Tanzanie, Kenya, 
 - [Design system](#design-system)
 - [Responsive](#responsive)
 - [Accessibilité et performance](#accessibilité-et-performance)
-- [Déploiement sur Vercel](#déploiement-sur-vercel)
 - [Pistes d’amélioration](#pistes-damélioration)
 - [Crédits](#crédits)
 - [Auteur](#auteur)
@@ -47,11 +46,10 @@ Le projet est une migration d’un site HTML statique vers **Next.js (App Router
 
 ## Liens
 
-| Ressource                   | URL                                    |
-| --------------------------- | -------------------------------------- |
-| Site en production (Vercel) | https://savana-dor.vercel.app/         |
-| Dépôt GitHub                | https://github.com/Dravix89/savana-dor |
-| Auteur                      | https://github.com/Dravix89            |
+| Ressource    | URL                                    |
+| ------------ | -------------------------------------- |
+| Dépôt GitHub | https://github.com/Dravix89/savana-dor |
+| Auteur       | https://github.com/Dravix89            |
 
 ## Fonctionnalités
 
@@ -90,7 +88,6 @@ Le projet est une migration d’un site HTML statique vers **Next.js (App Router
 | CSS global + CSS Modules                      | -                  | Styles (aucune librairie CSS externe)       |
 | `next/font`                                   | inclus             | Cormorant Garamond, Manrope                 |
 | `next/image`                                  | inclus             | Optimisation des images                     |
-| [Vercel](https://vercel.com/)                 | -                  | Hébergement et déploiement continu          |
 
 Dépendances de développement : `@types/node` ^22, `@types/react` ^19, `@types/react-dom` ^19.
 
