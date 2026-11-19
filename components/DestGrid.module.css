@@ -1,0 +1,64 @@
+.dest {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 22px;
+      }
+
+.card {
+        position: relative;
+        padding: 30px 26px 26px;
+        border-radius: 6px 28px 6px 28px;
+        background: var(--navy);
+        color: var(--sand);
+        box-shadow:
+          0 22px 40px -18px rgba(11, 27, 51, 0.7),
+          inset 0 1px 0 rgba(255, 255, 255, 0.18);
+        transition: transform 0.35s;
+        overflow: hidden;
+        min-height: 250px;
+      }
+
+.card::before {
+        content: "";
+        position: absolute;
+        left: -10%;
+        right: -10%;
+        bottom: -30px;
+        height: 90px;
+        background: var(--gold);
+        border-radius: 50% 50% 0 0;
+        opacity: 0.9;
+        box-shadow: 0 -14px 0 -6px #c58f17;
+      }
+
+.card:hover {
+        transform: translateY(-8px) rotate(-0.6deg);
+      }
+
+.card h3 {
+        font-size: 34px;
+        color: var(--gold2);
+      }
+
+.card small {
+        opacity: 0.7;
+        display: block;
+        margin-bottom: 12px;
+      }
+
+.card p {
+        font-size: 14.5px;
+        position: relative;
+        z-index: 1;
+        color: #fff6df;
+      }
+
+.card .dur {
+        position: absolute;
+        bottom: 14px;
+        left: 26px;
+        z-index: 2;
+        color: var(--night);
+        font-weight: 700;
+        font-size: 14px;
+      }

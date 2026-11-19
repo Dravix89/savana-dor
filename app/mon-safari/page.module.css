@@ -1,0 +1,35 @@
+/* Formulaire "Composer mon safari" */
+.form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 14px;
+  padding: clamp(20px, 4vw, 30px);
+  border-radius: 30px 6px 30px 6px;
+  background: var(--navy);
+  color-scheme: dark;
+  box-shadow: 0 30px 50px -20px rgba(11, 27, 51, 0.6);
+}
+.form input,
+.form select {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(246, 215, 122, 0.4);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--cream);
+  font: 500 15px var(--font-sans), system-ui, sans-serif;
+}
+.form select option {
+  color: #000;
+}
+.form input::placeholder {
+  color: #c9bb98;
+}
+.submit {
+  grid-column: 1 / -1;
+  justify-self: start;
+}
+.ok {
+  grid-column: 1 / -1;
+  color: var(--gold2);
+}

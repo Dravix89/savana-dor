@@ -1,0 +1,21 @@
+.wave {
+  --h: clamp(64px, 9vw, 140px);
+  position: relative;
+  z-index: 2;
+  line-height: 0;
+  margin-bottom: -1px;
+}
+.wave svg {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: var(--h);
+}
+.flip {
+  transform: scaleX(-1);
+}
+.overlap {
+  z-index: 4;
+  margin-top: calc(var(--h) * -1);
+  background: transparent !important;
+}
